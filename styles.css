@@ -7,7 +7,7 @@
 :root {
     --primary-color: #6366f1;
     --secondary-color: #8b5cf6;
-    --accent-color: #ec4899;
+    --accent-color: #8b5cf6;
     --dark-bg: #0f0f0f;
     --light-bg: #1a1a1a;
     --text-primary: #ffffff;
@@ -232,6 +232,10 @@ a:visited {
 
 .github-card .social-icon {
     background: #000
+}
+
+.bluesky-card .social-icon {
+    background: #1185FE
 }
 
 .generic-card .social-icon {
@@ -697,9 +701,20 @@ a:visited {
     box-shadow: 0 8px 25px rgba(99, 102, 241, 0.3);
 }
 
-.docs-site-card .hub-icon {
+.fallback-site-card .hub-icon {
     background: linear-gradient(135deg, #10b981, #059669);
     box-shadow: 0 8px 25px rgba(16, 185, 129, 0.3);
+}
+
+.classic-site-card .hub-icon {
+    background: linear-gradient(135deg, #92103f, #a51248); 
+    box-shadow: 0 8px 25px rgba(146, 16, 63, 0.3);
+}
+
+.q-site-card .hub-icon {
+    background: linear-gradient(135deg, #fff, #dbdada); 
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
+    color: #000;
 }
 
 .status-site-card .hub-icon {
